@@ -1,31 +1,31 @@
 class Persona
 {
-    private String ФИО;
-    private String должность;
+    private String FIO;
+    private String post;
     private String email;
-    private String телефон;
-    private double зарплата;
-    private int возраст;
+    private String mobile;
+    private double salary;
+    private int age;
 
     // Конструктор
     Persona (String ФИО, String должность, String email, String телефон, double зарплата, int возраст)
     {
-        this.ФИО = ФИО;
-        this.должность = должность;
+        this.FIO = ФИО;
+        this.post = должность;
         this.email = email;
-        this.телефон = телефон;
-        this.зарплата = зарплата;
-        this.возраст = возраст;
+        this.mobile = телефон;
+        this.salary = зарплата;
+        this.age = возраст;
     }
 
     // Метод для вывода информации об объекте в консоль
     void outInformation()
     {
-        System.out.println("ФИО: " + ФИО);
-        System.out.println("Должность: " + должность);
+        System.out.println("ФИО: " + FIO);
+        System.out.println("Должность: " + post);
         System.out.println("Email: " + email);
-        System.out.println("Телефон: " + телефон);
-        System.out.println("Зарплата: " + зарплата);
-        System.out.println("Возраст: " + возраст);
+        System.out.println("Телефон: " + mobile);
+        System.out.println("Зарплата: " + salary);
+        System.out.println("Возраст: " + age);
     }
 }
