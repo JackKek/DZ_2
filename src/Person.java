@@ -1,4 +1,4 @@
-class Сотрудник
+class Persona
 {
     private String ФИО;
     private String должность;
@@ -8,7 +8,7 @@ class Сотрудник
     private int возраст;
 
     // Конструктор
-    Сотрудник(String ФИО, String должность, String email, String телефон, double зарплата, int возраст)
+    Persona (String ФИО, String должность, String email, String телефон, double зарплата, int возраст)
     {
         this.ФИО = ФИО;
         this.должность = должность;
